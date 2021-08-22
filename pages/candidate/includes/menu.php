@@ -160,7 +160,14 @@
             </p>
           </a>
         </li>
-         
+             <li class="nav-item has-treeview ">
+          <a href="#" class="nav-link ">
+            <i class="nav-icon fas fa-back"></i>
+            <p>Logout
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
       </ul>
     </nav>
   </div>
