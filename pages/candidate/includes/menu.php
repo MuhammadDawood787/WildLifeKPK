@@ -56,7 +56,7 @@
           </a>
         </li>
          
-                <li class="nav-item has-treeview <?php if($curPageName == 'Peasantry.php' OR $curPageName == 'nationalParks.php' or $curPageName == 'sanctuaries.php' or $curPageName == 'waterfowl.php' or $curPageName == 'wildlifeParks.php' or $curPageName == 'nationalParks.php') { echo "menu-open" ; } ?>">
+                <li class="nav-item has-treeview <?php if($curPageName == 'Peasantry.php' OR $curPageName == 'nationalParks.php' or $curPageName == 'sanctuaries.php' or $curPageName == 'waterfowl.php' or $curPageName == 'wildlifeParks.php' or $curPageName == 'gameReserves.php' or $curPageName == 'gameReserves.php' or $curPageName == 'gameReserves.php' or $curPageName == 'gameReserves.php') { echo "menu-open" ; } ?>">
           <a href="#"  class="nav-link">
             <i class="icon_color nav-icon fas fa-dove"></i>
             <p>
@@ -93,6 +93,12 @@
               <a href="wildlifeParks.php" class="nav-link <?php if($curPageName == 'wildlifeParks.php' ) echo "active  " ?> ">
                 <i class="far fa-circle nav-icon"></i>
                 <p>WILDLIFE PARKS</p>
+              </a>
+            </li> 
+              <li class="nav-item">
+              <a href="gameReserves.php" class="nav-link <?php if($curPageName == 'gameReserves.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>GAME RESERVES</p>
               </a>
             </li> 
        

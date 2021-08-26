@@ -43,8 +43,67 @@ include "includes/header.php";
                        <td>33:44:50.40 N </td>
                      
                      </tr>
-                 
-                          
+                     <tr>
+                       <td>Tanda</td>
+                       <td>1133</td>
+                       <td>Kohat</td>
+                       <td>Sub Tropical Scrub Forest </td>
+                       <td>Chinkara, Urial, Hog deer, Blue bul,  Hare, Jackal, Fox, Grey partridge, Chakor partridge</td>
+                       <td>71:23:28.77 E     </td>
+                       <td>33:34:28.17 N  </td>
+                     
+                     </tr>
+                     <tr>
+                       <td>Kotal</td>
+                       <td>100</td>
+                       <td>Kotal</td>
+                       <td>Sub Tropical Scrub Forest </td>
+                       <td>Chinkara, Urial, Hog deer, Blue bul, Hare, Jackal, Fox, Grey partridge, Chakor partridge  </td>
+                       <td>71:24:53.05 E    </td>
+                       <td>33:38:22.73 N </td>
+                     
+                     </tr>
+                     <tr>
+                       <td>Togh Mangara</td>
+                       <td>1250</td>
+                       <td>Kohat</td>
+                       <td>Sub Tropical Scrub Forest </td>
+                       <td>Jackal, Fox,  Hare, Black partridge, Grey partridge, Chakor partridge </td>
+                       <td>71.58568993 </td>
+                       <td>33.59607225</td>
+                     
+                     </tr>
+                     <tr>
+                       <td>Nizampur</td>
+                       <td>2612</td>
+                       <td>Nowshehra</td>
+                       <td>Sub Tropical Scrub Forest </td>
+                       <td>Urial, Hog deer, Chukar Partridge, Grey Partridge, Black Partridge, Chinkara, Hare,Jackal.</td>
+                       <td>71.9180  </td>
+                       <td>33.7570 </td>
+                     
+                     </tr>
+                     <tr>
+                       <td>Malakand Safari Park</td>
+                       <td>97.12</td>
+                       <td>Malakand</td>
+                       <td>Sub Tropical Pine Forest, Sub Tropical Scrub Forest </td>
+                       <td>Ringnecked pheasant, Wood green pheasant, Silver pheasant, Kalij pheasant, Golden pheasant</td>
+                       <td>71.9270   </td>
+                       <td>34.5580</td>
+                     
+                     </tr>
+                     <tr>
+                       <td>Lakki</td>
+                       <td>10.11</td>
+                       <td>Lakki Marwat</td>
+                       <td>Sub Tropical Scrub Forest </td>
+                       <td>Grey Partridge, Black Partridge, See-See partridge, Dakkani grey partridge  </td>
+                       <td>70.8550   </td>
+                       <td>32.75800</td>
+                     
+                     </tr>
+                     
                  
                         
               
