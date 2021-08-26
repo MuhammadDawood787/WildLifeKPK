@@ -77,6 +77,12 @@
                 <p>National Parks</p>
               </a>
             </li> 
+              <li class="nav-item">
+              <a href="sanctuaries.php" class="nav-link <?php if($curPageName == 'sanctuaries.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>WILDLIFE SANCTUARIES</p>
+              </a>
+            </li> 
        
          </ul>
       </li>
@@ -160,16 +166,10 @@
             </p>
           </a>
         </li>
-<<<<<<< HEAD
          
              <li class="nav-item has-treeview ">
           <a href="#" class="nav-link ">
             <i class="nav-icon fas fa-sign-out-alt"></i>
-=======
-             <li class="nav-item has-treeview ">
-          <a href="#" class="nav-link ">
-            <i class="nav-icon fas fa-back"></i>
->>>>>>> 9bfc1ebf6c56ba448a290dcac5507bccd31649af
             <p>Logout
               <i class="right fas"></i>
             </p>
