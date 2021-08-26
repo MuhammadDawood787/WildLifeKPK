@@ -56,7 +56,7 @@
           </a>
         </li>
          
-                <li class="nav-item has-treeview <?php if($curPageName == 'Peasantry.php' OR $curPageName == 'nationalParks.php' or $curPageName == 'sanctuaries.php' or $curPageName == 'waterfowl.php' or $curPageName == 'wildlifeParks.php' or $curPageName == 'gameReserves.php' or $curPageName == 'gameReserves.php' or $curPageName == 'gameReserves.php' or $curPageName == 'gameReserves.php') { echo "menu-open" ; } ?>">
+                <li class="nav-item has-treeview <?php if($curPageName == 'Peasantry.php' OR $curPageName == 'nationalParks.php' or $curPageName == 'sanctuaries.php' or $curPageName == 'waterfowl.php' or $curPageName == 'wildlifeParks.php' or $curPageName == 'gameReserves.php' or $curPageName == 'totalProtectedArea.php' or $curPageName == 'gameReserves.php' or $curPageName == 'gameReserves.php') { echo "menu-open" ; } ?>">
           <a href="#"  class="nav-link">
             <i class="icon_color nav-icon fas fa-dove"></i>
             <p>
@@ -99,6 +99,12 @@
               <a href="gameReserves.php" class="nav-link <?php if($curPageName == 'gameReserves.php' ) echo "active  " ?> ">
                 <i class="far fa-circle nav-icon"></i>
                 <p>GAME RESERVES</p>
+              </a>
+            </li> 
+               <li class="nav-item">
+              <a href="totalProtectedArea.php" class="nav-link <?php if($curPageName == 'totalProtectedArea.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>TOTAL PROTECTED AREA </p>
               </a>
             </li> 
        
@@ -176,14 +182,99 @@
             </p>
           </a>
         </li>
-             <li class="nav-item has-treeview ">
+             <!-- <li class="nav-item has-treeview ">
           <a href="#" class="nav-link ">
             <i class="nav-icon fas fa-cog"></i>
             <p>Setting
               <i class="right fas"></i>
             </p>
           </a>
-        </li>
+        </li> -->
+             <li class="nav-item has-treeview <?php if($curPageName == 'HRPersonalReports.php' OR $curPageName == 'EmQualification.php' or $curPageName == 'initialAppoint.php' or $curPageName == 'ServiceHistory.php' or $curPageName == 'TrainingInfo.php' or $curPageName == 'Promotion.php' or $curPageName == 'Transfer.php' or $curPageName == 'Family.php' or $curPageName == 'Act.php' or $curPageName == 'ProtectedAreasReport.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php') { echo "menu-open" ; } ?>">
+          <a href="#"  class="nav-link">
+            <i class="icon_color nav-icon fas fa-book"></i>
+            <p>
+             Reports 
+             <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+           <ul class="nav nav-treeview">
+               <li class="nav-item has-treeview <?php if ($curPageName == 'HRPersonalReports.php' or $curPageName == 'EmQualification.php' or $curPageName == 'initialAppoint.php' or $curPageName == 'ServiceHistory.php' or $curPageName == 'TrainingInfo.php' or $curPageName == 'Promotion.php' or $curPageName == 'Transfer.php' or $curPageName == 'Family.php' or $curPageName == 'Act.php' or $curPageName == 'ProtectedAreasReport.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php') {
+  echo "menu-open";
+}?>">
+          <a href="#"  class="nav-link">
+            <i class="icon_color nav-icon fas fa-book"></i>
+            <p>
+             HR Reports 
+             <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+           <ul class="nav nav-treeview">
+           <li class="nav-item">
+              <a href="HRPersonalReports.php" class="nav-link <?php if($curPageName == 'HRPersonalReports.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Employee Personal Info</p>
+              </a>
+            </li> 
+        <li class="nav-item">
+              <a href="EmQualification.php" class="nav-link <?php if($curPageName == 'EmQualification.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Employee Qualification</p>
+              </a>
+            </li> 
+            <li class="nav-item">
+              <a href="initialAppoint.php" class="nav-link <?php if($curPageName == 'initialAppoint.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Initial Appointment</p>
+              </a>
+            </li> 
+            <li class="nav-item">
+              <a href="ServiceHistory.php" class="nav-link <?php if($curPageName == 'ServiceHistory.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Employee Service History</p>
+              </a>
+            </li> 
+               <li class="nav-item">
+              <a href="TrainingInfo.php" class="nav-link <?php if($curPageName == 'TrainingInfo.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Employee Training Info</p>
+              </a>
+            </li> 
+             <li class="nav-item">
+              <a href="Promotion.php" class="nav-link <?php if($curPageName == 'Promotion.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Employee Promotions</p>
+              </a>
+            </li> 
+             <li class="nav-item">
+              <a href="Transfer.php" class="nav-link <?php if($curPageName == 'Transfer.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Employee Transfer</p>
+              </a>
+            </li> 
+         </ul>
+          <li class="nav-item">
+              <a href="Family.php" class="nav-link <?php if($curPageName == 'Family.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>HR Family Info</p>
+              </a>
+            </li> 
+            <li class="nav-item">
+              <a href="Act.php" class="nav-link <?php if($curPageName == 'Act.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Act And Rules</p>
+              </a>
+            </li> 
+            <li class="nav-item">
+              <a href="ProtectedAreasReport.php" class="nav-link <?php if($curPageName == 'ProtectedAreasReport.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Protected Areas</p>
+              </a>
+            </li> 
+      </li>
+       
+         </ul>
+      </li>
          
              <li class="nav-item has-treeview ">
           <a href="#" class="nav-link ">
