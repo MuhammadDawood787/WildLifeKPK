@@ -190,7 +190,7 @@
             </p>
           </a>
         </li> -->
-             <li class="nav-item has-treeview <?php if($curPageName == 'HRPersonalReports.php' OR $curPageName == 'EmQualification.php' or $curPageName == 'initialAppoint.php' or $curPageName == 'ServiceHistory.php' or $curPageName == 'TrainingInfo.php' or $curPageName == 'Promotion.php' or $curPageName == 'Transfer.php' or $curPageName == 'Family.php' or $curPageName == 'Act.php' or $curPageName == 'ProtectedAreasReport.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php') { echo "menu-open" ; } ?>">
+             <li class="nav-item has-treeview <?php if($curPageName == 'HRPersonalReports.php' OR $curPageName == 'EmQualification.php' or $curPageName == 'initialAppoint.php' or $curPageName == 'ServiceHistory.php' or $curPageName == 'TrainingInfo.php' or $curPageName == 'Promotion.php' or $curPageName == 'Transfer.php' or $curPageName == 'Family.php' or $curPageName == 'Act.php' or $curPageName == 'ProtectedAreasReport.php' or $curPageName == 'PeasantryReport.php' or $curPageName == 'shootinglicenseReport.php' or $curPageName == 'licensetypeReport.php' or $curPageName == 'offenceformReport.php' or $curPageName == 'courtcaseReport.php' or $curPageName == 'plain.php' or $curPageName == 'Procurement.php' or $curPageName == 'RoadKill.php' ) { echo "menu-open" ; } ?>">
           <a href="#"  class="nav-link">
             <i class="icon_color nav-icon fas fa-book"></i>
             <p>
@@ -199,7 +199,7 @@
             </p>
           </a>
            <ul class="nav nav-treeview">
-               <li class="nav-item has-treeview <?php if ($curPageName == 'HRPersonalReports.php' or $curPageName == 'EmQualification.php' or $curPageName == 'initialAppoint.php' or $curPageName == 'ServiceHistory.php' or $curPageName == 'TrainingInfo.php' or $curPageName == 'Promotion.php' or $curPageName == 'Transfer.php' or $curPageName == 'Family.php' or $curPageName == 'Act.php' or $curPageName == 'ProtectedAreasReport.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php' or $curPageName == 'Act.php') {
+               <li class="nav-item has-treeview <?php if ($curPageName == 'HRPersonalReports.php' or $curPageName == 'EmQualification.php' or $curPageName == 'initialAppoint.php' or $curPageName == 'ServiceHistory.php' or $curPageName == 'TrainingInfo.php' or $curPageName == 'Promotion.php' or $curPageName == 'Transfer.php' ) {
   echo "menu-open";
 }?>">
           <a href="#"  class="nav-link">
@@ -269,6 +269,78 @@
               <a href="ProtectedAreasReport.php" class="nav-link <?php if($curPageName == 'ProtectedAreasReport.php' ) echo "active  " ?> ">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Protected Areas</p>
+              </a>
+            </li> 
+              <li class="nav-item">
+              <a href="PeasantryReport.php" class="nav-link <?php if($curPageName == 'PeasantryReport.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Peasantry</p>
+              </a>
+            </li> 
+                <li class="nav-item has-treeview <?php if($curPageName == 'shootinglicenseReport.php' OR $curPageName == 'licensetypeReport.php') { echo "menu-open" ; } ?>">
+          <a href="#"  class="nav-link">
+            <i class="icon_color nav-icon fas fa-id-badge"></i>
+            <p>
+             License Report
+             <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+           <ul class="nav nav-treeview">
+           <li class="nav-item">
+              <a href="shootinglicenseReport.php" class="nav-link <?php if($curPageName == 'shootinglicenseReport.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Shooting License Type</p>
+              </a>
+            </li> 
+        <li class="nav-item">
+              <a href="licensetypeReport.php" class="nav-link <?php if($curPageName == 'licensetypeReport.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>License Type</p>
+              </a>
+            </li> 
+       
+         </ul>
+      </li>
+      <li class="nav-item has-treeview <?php if($curPageName == 'offenceformReport.php' OR $curPageName == 'courtcaseReport.php') { echo "menu-open" ; } ?>">
+          <a href="#"  class="nav-link">
+            <i class="icon_color nav-icon fas fa-gavel"></i>
+            <p>
+             Offences Report
+             <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+           <ul class="nav nav-treeview">
+           <li class="nav-item">
+              <a href="offenceformReport.php" class="nav-link <?php if($curPageName == 'offenceformReport.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Offence Form</p>
+              </a>
+            </li> 
+        <li class="nav-item">
+              <a href="courtcaseReport.php" class="nav-link <?php if($curPageName == 'courtcaseReport.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Cases Decided By Court </p>
+              </a>
+            </li> 
+       
+         </ul>
+      </li>
+         <li class="nav-item">
+              <a href="plain.php" class="nav-link <?php if($curPageName == 'plain.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Planning And Development</p>
+              </a>
+            </li> 
+              <li class="nav-item">
+              <a href="Procurement.php" class="nav-link <?php if($curPageName == 'Procurement.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Procurement</p>
+              </a>
+            </li> 
+              <li class="nav-item">
+              <a href="RoadKill.php" class="nav-link <?php if($curPageName == 'RoadKill.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Road Kills</p>
               </a>
             </li> 
       </li>
