@@ -347,6 +347,14 @@
        
          </ul>
       </li>
+            <li class="nav-item has-treeview ">
+          <a href="progressReport.php" class="nav-link  <?php if($curPageName == 'progressReport.php') echo "active" ?> ">
+            <i class="nav-icon fas fa-skull-crossbones"></i>
+            <p>Monthly Progress Report
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
          
              <li class="nav-item has-treeview ">
           <a href="#" class="nav-link ">
