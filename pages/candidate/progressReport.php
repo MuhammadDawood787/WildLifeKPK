@@ -51,7 +51,7 @@ include "includes/header.php";
                         <div class="col-md-4">
                   <div class="form-group">
                     <label>Species </label>
-                    <input type="Date" name="" 
+                    <input type="text" name="" 
                     class="form-control" autocomplete="off"
                     required>
                   </div>
