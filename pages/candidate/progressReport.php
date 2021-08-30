@@ -48,96 +48,375 @@ include "includes/header.php";
             
             
                   <div class="row ">
-                        <div class="col-md-4">
+                     <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                        
                   <div class="form-group">
                     <label>Species </label>
-                    <input type="text" name="" 
+                    <input type="text" name=""  placeholder="Species"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
                 </div>
-                    <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Opening Balance </label>
-                    <input type="text" name="" placeholder="Type Of Road "
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
-                </div>       
-        
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Sold</label>
-                    <input type="text" name="" placeholder="Type Of Species"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
+                  <div class="col-md-1"></div>
                 </div>
+                <hr size="8" width="100%" color="gray">  
+                <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Opening Balance </label>
+                 </div>
                 
-           
-        
-                 <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Free Distribution</label>
-                    <input type="text" name="" placeholder="Location"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
                 </div>
-                 <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Shifted</label>
-                    <input type="text" name="" placeholder="Location"
+                   <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Male </label>
+                    <input type="text" name=""  placeholder="Male"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
+                 </div>
+                 <div class="col-md-3" style="text-align="center">
+               <div class="form-group">
+                    <label>Female </label>
+                    <input type="text" name=""  placeholder="Female"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Checks </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                  <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Eggs </label>
+                    <input type="text" name=""  placeholder="Eggs"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   
+                 </div>
+                 <hr size="8" width="100%" color="gray">  
+                 <div class="row">
+                   <div class="col-md-12" style="text-align: center;">
+                       <h4 style="text-bold;">Disposal </h4>
+                   </div>
+
+                 </div>
+                   <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Sold </label>
+                 </div>
+                
                 </div>
-                 <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Addition From Other Sources </label>
-                    <input type="text" name="" placeholder="Location"
+                   <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Male </label>
+                    <input type="text" name=""  placeholder="Male"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
+                 </div>
+                 <div class="col-md-3" style="text-align="center">
+               <div class="form-group">
+                    <label>Female </label>
+                    <input type="text" name=""  placeholder="Female"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Checks </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                  <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Eggs </label>
+                    <input type="text" name=""  placeholder="Eggs"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   
+                 </div>
+                     <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Free Distribution </label>
+                 </div>
+                
                 </div>
-                 <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Natality</label>
-                    <input type="text" name="" placeholder="Location"
+                   <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Male </label>
+                    <input type="text" name=""  placeholder="Male"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
+                 </div>
+                 <div class="col-md-3" style="text-align="center">
+               <div class="form-group">
+                    <label>Female </label>
+                    <input type="text" name=""  placeholder="Female"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Checks </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                  <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Eggs </label>
+                    <input type="text" name=""  placeholder="Eggs"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   
+                 </div>
+                     <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Shifted </label>
+                 </div>
+                
                 </div>
-                 <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Mortality</label>
-                    <input type="text" name="" placeholder="Location"
+                   <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Male </label>
+                    <input type="text" name=""  placeholder="Male"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
+                 </div>
+                 <div class="col-md-3" style="text-align="center">
+               <div class="form-group">
+                    <label>Female </label>
+                    <input type="text" name=""  placeholder="Female"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Checks </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                  <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Eggs </label>
+                    <input type="text" name=""  placeholder="Eggs"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   
+                 </div>
+                  <hr size="8" width="100%" color="gray"> 
+                       <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Additional From Other Sources </label>
+                 </div>
+                
                 </div>
-                 <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Balance</label>
-                    <input type="text" name="" placeholder="Location"
+                   <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Male </label>
+                    <input type="text" name=""  placeholder="Male"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
+                 </div>
+                 <div class="col-md-3" style="text-align="center">
+               <div class="form-group">
+                    <label>Female </label>
+                    <input type="text" name=""  placeholder="Female"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Checks </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                  <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Eggs </label>
+                    <input type="text" name=""  placeholder="Eggs"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   
+                 </div>
+                  <hr size="8" width="100%" color="gray"> 
+                       <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Natality </label>
+                 </div>
+                
                 </div>
-                 <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Total</label>
-                    <input type="text" name="" placeholder="Location"
+                   <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Total Eggs </label>
+                    <input type="text" name=""  placeholder="Total Eggs"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
+                 </div>
+                 <div class="col-md-3" style="text-align="center">
+               <div class="form-group">
+                    <label>Unhatched </label>
+                    <input type="text" name=""  placeholder="Unhatched"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Checks </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                
+                   
+                 </div>
+                       <hr size="8" width="100%" color="gray"> 
+                   <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Mortality </label>
+                 </div>
+                
+                </div>
+                   <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Male </label>
+                    <input type="text" name=""  placeholder="Male"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3" style="text-align="center">
+               <div class="form-group">
+                    <label>Female </label>
+                    <input type="text" name=""  placeholder="Female"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Checks </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                  <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Eggs </label>
+                    <input type="text" name=""  placeholder="Eggs"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   
+                 </div>
+                       <hr size="8" width="100%" color="gray"> 
+                         <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Balance </label>
+                 </div>
+                
+                </div>
+                   <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Male </label>
+                    <input type="text" name=""  placeholder="Male"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3" style="text-align="center">
+               <div class="form-group">
+                    <label>Female </label>
+                    <input type="text" name=""  placeholder="Female"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Checks </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                  <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Eggs </label>
+                    <input type="text" name=""  placeholder="Eggs"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   
+                 </div>
+                  <hr size="8" width="100%" color="gray"> 
+                         <div class="row">
+               
+                
+                </div>
+                   <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Total </label>
+                    <input type="text" name=""  placeholder="Total"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+             
+                   
+                 </div>
                 </div>
                 
                   <div class="col-md-12 text-right">
                   <input type="submit" class="btn btn-success shadow" value="Submit"
                   name="saveUser1">
                 </div>
-                 </div>
+                
               
             </form>
          
