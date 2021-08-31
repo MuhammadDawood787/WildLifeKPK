@@ -71,6 +71,12 @@
                 <p>Peasantry</p>
               </a>
             </li> 
+              <li class="nav-item">
+              <a href="speciesInfo.php" class="nav-link <?php if($curPageName == 'speciesInfo.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Species Information</p>
+              </a>
+            </li> 
         <li class="nav-item">
               <a href="nationalParks.php" class="nav-link <?php if($curPageName == 'nationalParks.php' ) echo "active  " ?> ">
                 <i class="far fa-circle nav-icon"></i>
