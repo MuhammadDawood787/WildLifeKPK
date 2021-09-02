@@ -369,6 +369,14 @@
             </p>
           </a>
         </li>
+         <li class="nav-item has-treeview ">
+          <a href="survey.php" class="nav-link  <?php if($curPageName == 'survey.php') echo "active" ?> ">
+            <i class="nav-icon fas fa-book"></i>
+            <p>Survey
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
          
              <li class="nav-item has-treeview ">
           <a href="#" class="nav-link ">
