@@ -378,7 +378,7 @@
             </p>
           </a>
         </li>
-           <li class="nav-item has-treeview <?php if($curPageName == 'Dustbins.php' OR $curPageName == 'Competitions.php') { echo "menu-open" ; } ?>">
+           <li class="nav-item has-treeview <?php if($curPageName == 'Dustbins.php' OR $curPageName == 'Competitions.php' or $curPageName == 'Billboards.php' or $curPageName == 'StallExhibitions.php' or $curPageName == 'Competitions.php') { echo "menu-open" ; } ?>">
           <a href="#"  class="nav-link">
             <i class="icon_color nav-icon fas fa-id-badge"></i>
             <p>
@@ -399,10 +399,29 @@
                 <p>Competitions</p>
               </a>
             </li> 
+             <li class="nav-item">
+              <a href="Billboards.php" class="nav-link <?php if($curPageName == 'Billboards.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Bill boards</p>
+              </a>
+            </li> 
+       
+              <li class="nav-item">
+              <a href="Games.php" class="nav-link <?php if($curPageName == 'Games.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Games</p>
+              </a>
+            </li> 
+                 <li class="nav-item">
+              <a href="StallExhibitions.php" class="nav-link <?php if($curPageName == 'StallExhibitions.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Stall / Exhibitions</p>
+              </a>
+            </li> 
        
          </ul>
       </li>
-           <li class="nav-item has-treeview <?php if($curPageName == 'schoolNature.php' OR $curPageName == 'Lectures.php' or $curPageName == 'NoticeBoard.php' or $curPageName == 'Lectures.php' or $curPageName == 'Lectures.php' or $curPageName == 'Lectures.php')  { echo "menu-open" ; } ?>">
+           <li class="nav-item has-treeview <?php if($curPageName == 'schoolNature.php' OR $curPageName == 'Lectures.php' or $curPageName == 'NoticeBoard.php' or $curPageName == 'EducationaAndAwareness.php' or $curPageName == 'Educationalvideos.php' or $curPageName == 'Lectures.php')  { echo "menu-open" ; } ?>">
           <a href="#"  class="nav-link">
             <i class="icon_color nav-icon fas fa-school"></i>
             <p>
@@ -429,7 +448,20 @@
                 <p>Notice Board</p>
               </a>
             </li> 
+              <li class="nav-item">
+              <a href="EducationaAndAwareness.php" class="nav-link <?php if($curPageName == 'EducationaAndAwareness.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Education & Awareness</p>
+              </a>
+            </li> 
+               <li class="nav-item">
+              <a href="Educationalvideos.php" class="nav-link <?php if($curPageName == 'Educationalvideos.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Educational videos</p>
+              </a>
+            </li> 
          </ul>
+
       </li>
              <li class="nav-item has-treeview ">
           <a href="#" class="nav-link ">
