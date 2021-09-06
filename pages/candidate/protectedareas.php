@@ -73,6 +73,18 @@
                     required>
                   </div>
                 </div>
+                   <div class="col-md-4">
+                  <div class="form-group">
+                    <label>District</label>
+                    <select name="" id="select" class="form-control select2">
+                        <option value="">Choose</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                      
+                    </select>
+                  </div>
+                </div> 
                  <div class="col-md-4">
                   <div class="form-group">
                     <label>Longitude/Latitude</label>

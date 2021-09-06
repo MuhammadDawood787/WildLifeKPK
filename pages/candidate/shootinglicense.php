@@ -147,9 +147,9 @@
                 </div>
                  <div class="col-md-4">
                   <div class="form-group">
-                    <label>Province</label>
+                    <label>District</label>
                     <select name="" id="" class="form-control select2">
-                        <option value="">Select Province</option>
+                        <option value="">Select District</option>
                         <option value="">1</option>
                       
                     </select>
