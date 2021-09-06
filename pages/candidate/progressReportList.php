@@ -23,86 +23,50 @@ include "includes/header.php";
                       <th colspan="4">Balance</th>
                       <th>Total</th>
                     </tr>
+                       <tr data-widget="expandable-table" aria-expanded="false">
+                     
+                      
+                      <th>M</th>
+                      <th>F</th>
+                      <th>C</th>
+                      <th>E</th>
+                        <th>M</th>
+                      <th>F</th>
+                      <th>C</th>
+                      <th>E</th>
+                      <th>M</th>
+                      <th>F</th>
+                      <th>C</th>
+                      <th>E</th>
+                    <th>M</th>
+                      <th>F</th>
+                      <th>C</th>
+                      <th>E</th>
+                      <th>M</th>
+                      <th>F</th>
+                      <th>C</th>
+                      <th>E</th>
+                     <th>Total Eggs</th>
+                      <th>Unhatched</th>
+                      <th>C</th>
+                       <th>M</th>
+                      <th>F</th>
+                      <th>C</th>
+                      <th>E</th>
+                       <th>M</th>
+                      <th>F</th>
+                      <th>C</th>
+                      <th>E</th>
+                    
+                    
+                      <td></td>
+                    </tr>
+                   
+             
+                   
                   </thead>
                   <tbody>
-                    <tr data-widget="expandable-table" aria-expanded="false">
-                     
-                      <td></td>
-                      <td>M</td>
-                      <td>F</td>
-                      <td>C</td>
-                      <td>E</td>
-                       <td>M</td>
-                      <td>F</td>
-                      <td>C</td>
-                      <td>E</td>
-                     <td>M</td>
-                      <td>F</td>
-                      <td>C</td>
-                      <td>E</td>
-                     <td>M</td>
-                      <td>F</td>
-                      <td>C</td>
-                      <td>E</td>
-                     <td>M</td>
-                      <td>F</td>
-                      <td>C</td>
-                      <td>E</td>
-                     <td>Total Eggs</td>
-                      <td>Unhatched</td>
-                      <td>C</td>
-                      <td>M</td>
-                      <td>F</td>
-                      <td>C</td>
-                      <td>E</td>
-                       <td>M</td>
-                      <td>F</td>
-                      <td>C</td>
-                      <td>E</td>
-                    
-                    
-                      <td></td>
-                    </tr>
-                   
-                   <tr data-widget="expandable-table" aria-expanded="false">
-                     
-                      <td>Ring Necked Pheasant</td>
-                      <td>8</td>
-                      <td>18</td>
-                      <td>0</td>
-                      <td>0</td>
-                       <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
-                     <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
-                     <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
-                     <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
-                      <td>66</td>
-                     <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
-                      <td>01</td>
-                      <td>0</td>
-                      <td>0</td>
-                      <td>0</td>
-                       <td>7</td>
-                      <td>18</td>
-                      <td>0</td>
-                      <td>66</td>
-                    
-                    
-                      <td>91</td>
-                    </tr>
-                   
+                 
                    
                   </tbody>
                 </table>
