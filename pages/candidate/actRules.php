@@ -9,12 +9,12 @@
   <div class="container-fluid">
     <div class="row mb-2">
       <div class="col-md-6">
-        <h4 class="m-0 text-dark">Human Resource Information</h4>
+        <h4 class="m-0 text-dark">Acts And Rules</h4>
       </div>
       <div class="col-md-6">
         <ol class="breadcrumb float-md-right">
           <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
-          <li class="breadcrumb-item active">Human Resource</li>
+          <li class="breadcrumb-item active">Acts And Rules</li>
         </ol>
       </div>
     </div>
@@ -34,7 +34,7 @@
         <!-- general form elements -->
         <div class="card card-success" class="text-center">
           <div class="card-header">
-            <div class="card-title">Human Resource</div>
+            <div class="card-title">Acts And Rules</div>
            <!--  <div class="card-tools">
               <a href="#" class="btn btn-warning btn-sm shadow"> Human Resource List</a>
             </div> -->
@@ -76,7 +76,6 @@
               <div class="card card-plain">
                 <div class="card-header card-header-success">
                   <h4 class="card-title mt-0"> Acts And Rules</h4>
-                  <p class="card-category"> You can See All Acts and Rules Here</p>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive">
