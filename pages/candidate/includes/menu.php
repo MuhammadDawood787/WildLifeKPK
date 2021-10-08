@@ -519,6 +519,38 @@
          </ul>
 
       </li>
+              <li class="nav-item has-treeview ">
+          <a href="protectedareasKP.php" class="nav-link  <?php if($curPageName == 'protectedareasKP.php') echo "active" ?> ">
+            <i class="nav-icon fas fa-skull-crossbones"></i>
+            <p>Protected Areas of KP
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
+            <li class="nav-item has-treeview ">
+          <a href="Revenue.php" class="nav-link  <?php if($curPageName == 'Revenue.php') echo "active" ?> ">
+            <i class="nav-icon fas fa-skull-crossbones"></i>
+            <p>Revenue
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
+          <li class="nav-item has-treeview ">
+          <a href="Stock.php" class="nav-link  <?php if($curPageName == 'Stock.php') echo "active" ?> ">
+            <i class="nav-icon fas fa-skull-crossbones"></i>
+            <p>Stock
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
+           <li class="nav-item has-treeview ">
+          <a href="Expenses.php" class="nav-link  <?php if($curPageName == 'Expenses.php') echo "active" ?> ">
+            <i class="nav-icon fas fa-skull-crossbones"></i>
+            <p>Expenses
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
              <li class="nav-item has-treeview ">
           <a href="#" class="nav-link ">
             <i class="nav-icon fas fa-sign-out-alt"></i>
