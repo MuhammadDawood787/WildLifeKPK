@@ -1,362 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include "includes/header.php";
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wild Life KPK</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
-</head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <img src="images/logo.png" width="60%">
-            </div>
-            <div class="col-sm-6">
-                <h4 class="mt-5 fs-3 fw-bold text-center text-success">WILD LIFE DEPARTMENT KHYBER PAKHTUNKHWA </h4>
-            </div>
+?>
+
+
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <h4 class="m-0 text-dark">Expenses </h4>
+      </div>
+      <div class="col-md-6">
+        <ol class="breadcrumb float-md-right">
+          <li class="breadcrumb-item"><a href="dashbaord.php">Home</a></li>
+          <li class="breadcrumb-item active">Expenses </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="content">
+  <div class="container-fluid" class="text-center">
+    <div class="row">
+      <!-- left column -->
+      <div class="col-md-12">
+        <center id="succ" style="display: none">
+        <h4 class="text-success">User Added Successfully</h4>
+        </center>
+        <center id="err" style="display: none">
+        <h4 class="text-danger">User Not Added</h4>
+        </center>
+        <!-- general form elements -->
+        <div class="card card-success" class="text-center">
+          <div class="card-header">
+            <div class="card-title">Expenses </div>
+           <!--  <div class="card-tools">
+              <a href="#" class="btn btn-warning btn-sm shadow"> Human Resource List</a>
+            </div> -->
+          </div>
+          <br>
+      
+          <!-- /.card-header -->
+          <div class="card-body">
+            <!-- form start -->
+            <form method="post" enctype="multipart/form-data">
             
-        </div>
-        <hr>
-        <table class="table table-bordered col-sm-12 text-success">
-
-            <thead style="font-size: 20px;">
-                <tr>
-                    <th rowspan="2" class="text-center">
-                        <h4 style="margin-bottom: 125px;">Particulars</h4>
-                    </th>
-
-                    <th colspan="5" class="text-center">Actual/Statement of Expenditure for the Month<input type="text" placeholder="Division" style="margin: 10px;"><br>In respect of<input type="date" style="margin: 10px;">Wild Life  Department</th>
-
-                </tr>
-                <tr>
-
-                    <th class="col-sm-2">Budget Allocation (released Budget) 2021-22</th>
-                    <th>Previous</th>
-                    <th class="col-sm-2">During the Month</th>
-                    <th>Total</th>
-
-                </tr>
-            </thead>
-            <tbody class="fw-bold">
-                <tr class=>
-                    <td>A03806-Transportation of Goods</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03807-P.O.L CARGES</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03809-CNG Charges</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03821-Training Domestic</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03901-Stationary</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03902-PRINTING AND PUBLICATION</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03903-Conference/Seminar/Workshop</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03904 Hire of vehicle</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03905-NEWSPAPERS PERIODICALS AND BOOK</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03906-UNIFORMS AND PROTECTIVE CLOTHINGS</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03907-ADVERTISING AND PUBLICITY</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03917-LAW CHARGES</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03942-Cost of other stories</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03959-Stipened</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03963-Feeding Diet Food Charges</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03970-36-OTHER W/LIFE BIRDS</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03970-01-Others</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A03982-Capacity Building</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A04114-Superannuation Encashment of L.P.R</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A05216-Financial Assistance</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A06402-Contribution/Transfer to Reserve Fund</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A9101-Land and Building</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A9201-Hardware</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A9202-Software</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A9203-I.T.Equipment</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
+            
+                  <div class="row ">
+                     <div class="col-md-1"></div>
+                          <div class="col-md-5">
+                  <div class="form-group">
+                    <label>Division</label>
+                    <select name="" id="select" class="form-control select2">
+                        <option value="">Choose</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                      
+                    </select>
+                  </div>
+                </div> 
+                  <div class="col-md-5">
+                        
+                  <div class="form-group">
+                    <label>Month</label>
+                    <input type="text" name=""  placeholder="Month"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                  <div class="col-md-1"></div>
+                </div>
+                <hr size="8" width="100%" color="gray">  
+                <div class="row">
+               
+                
+                </div>
+                   <div class="row mt-3">
+                 <div class="col-md-4">
+                   <div class="form-group">
+                    <label>Particulars </label>
+                    <input type="text" name=""  placeholder="Particulars"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-4">
+                   <div class="form-group">
+                    <label>Budget Allocation </label>
+                    <input type="text" name=""  placeholder="Budget Allocation"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                     <div class="col-md-4">
+                   <div class="form-group">
+                    <label>Previous</label>
+                    <input type="text" name=""  placeholder="Previous"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   <div class="col-md-4">
+                   <div class="form-group">
+                    <label>During The Month </label>
+                    <input type="text" name=""  placeholder="During The Month"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   <div class="col-md-4">
+                   <div class="form-group">
+                    <label>Total</label>
+                    <input type="text" name=""  placeholder="Total"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 </div>
+                
+                  <div class="col-md-12 text-right">
+                  <input type="submit" class="btn btn-success shadow" value="Submit"
+                  name="saveUser1">
+                </div>
+                
               
-                <tr>
-                    <td>A9701-Purchace of Furniture and Fixture</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A12370-Others</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A12401-Office Buildings</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A12102-Other highways/roads</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13001-TRANSPORT</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13101-MACHINERY AND EQUIPMENT</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13201-FURNITURE AND FIXTURE</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13301-OFFICE BUILDING</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13302-RESIDENTIAL BUILDINGS</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>001--Residential Building</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13303-OTHER BUILDINGS</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13370-OTHERS</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13601-HIGHWAYS</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13701-Hardware</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13702-Software</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13703-I.T Equipment</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>A13905-Lines & Wires (Radio)</td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                    <td><input type="number" class="form-control"></td>
-                </tr>
-                <tr>
-                    <th>Grand Total</th>
-                    <th><input type="number" class="form-control"></th>
-                    <th><input type="number" class="form-control"></th>
-                    <th><input type="number" class="form-control"></th>
-                    <th><input type="number" class="form-control"></th>
-                </tr>
-            </tbody>
-
+            </form>
+         
+        </div>
+        <!-- /.card-body -->
+      </div>
+      <!-- /.card -->
     </div>
+    <!-- Col-12 -->
+  </div>
+  <!-- row -->
+</div>
+</section>
 
-    </table>
-    <div class="float-end">
-        <h2>Director/Conservator of Wildlife Department</h2>
-        <h3>Peshawar, peshawar</h3>
-    </div>
-</body>
-
-</html>
+<?php
+include "includes/footer.php";
+?>
