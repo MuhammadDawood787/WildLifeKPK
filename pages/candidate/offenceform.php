@@ -49,25 +49,69 @@
                   <div class="row ">
                     <div class="col-md-4">
                   <div class="form-group">
-                    <label>Offence ID</label>
-                    <input type="text" name="" placeholder="Offence ID"
+                    <label>Accused Name</label>
+                    <input type="text" name="" placeholder="Accused Name"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
-                </div>       
-                   <div class="col-md-4">
+                </div>  
+                 <div class="col-md-4">
                   <div class="form-group">
-                    <label>Division</label>
-                    <select name="" id="select" class="form-control select2">
-                        <option value="">Select Division</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                  
-                      
-                    </select>
+                    <label>Father Name</label>
+                    <input type="text" name="" placeholder="Father Name"
+                    class="form-control" autocomplete="off"
+                    required>
                   </div>
-                </div>
+                </div>     
+                 <div class="col-md-4">
+                  <div class="form-group">
+                    <label>CNIC Number</label>
+                    <input type="text" name="" placeholder="CNIC Number"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>   
+                 <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Complete Address</label>
+                    <input type="text" name="" placeholder="Complete Address"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div> 
                   <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Place of Occurrence</label>
+                    <input type="text" name="" placeholder="Place of Occurrence"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>    
+                  <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Date of Occurrence</label>
+                    <input type="Date" name="" placeholder=""
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>    
+                          <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Time of Occurrence</label>
+                    <input type="text" name="" placeholder="Time of Occurrence"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>  
+                          <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Police Station</label>
+                    <input type="text" name="" placeholder="Police Station"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>  
+                       <div class="col-md-4">
                   <div class="form-group">
                     <label>District</label>
                     <select name="" id="select" class="form-control select2">
@@ -79,86 +123,83 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-md-4">
+                          <div class="col-md-4">
                   <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" name="" placeholder="Name"
+                    <label>Crime under Section</label>
+                    <input type="text" name="" placeholder="Crime under Section"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
-                </div>
-                  <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Address</label>
-                    <input type="text" name="" placeholder="Address"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
-                </div>
-                  <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Offence Type</label>
-                    <select name="" id="select" class="form-control select2">
-                        <option value="">Select Offence Type</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
+                </div>  
                   
-                      
-                    </select>
+           
+               
+                  <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Detail of the Crime</label>
+                    <input type="text" name="" placeholder="Detail of the Crime"
+                    class="form-control" autocomplete="off"
+                    required>
                   </div>
                 </div>
+               
                  <div class="col-md-4">
                   <div class="form-group">
-                    <label>Offence Nature </label>
-                    <input type="text" name="" placeholder="Offence Nature"
+                    <label>Detail of the Crime </label>
+                    <input type="text" name="" placeholder="Detail of the Crime"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                       <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Reporting Person Name </label>
+                    <input type="text" name="" placeholder="Reporting Person Name"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                       <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Witness Name </label>
+                    <input type="text" name="" placeholder="Witness Name"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                       <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Name of the Court </label>
+                    <input type="text" name="" placeholder="Name of the Court"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                       <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Court Register Number</label>
+                    <input type="text" name="" placeholder="Court Register Number"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
                 </div>
                     <div class="col-md-4">
                   <div class="form-group">
-                    <label> Date</label>
+                    <label> Date of Case Registration at the Court </label>
                     <input type="Date" name=""
                     class="form-control" autocomplete="off"
                     required>
                   </div>
                 </div>
-                    <div class="col-md-4">
+                             <div class="col-md-4">
                   <div class="form-group">
-                    <label>Court Name </label>
-                    <input type="text" name="" placeholder="Court Name"
+                    <label> Date of Recovery  </label>
+                    <input type="Date" name=""
                     class="form-control" autocomplete="off"
                     required>
                   </div>
                 </div>
-                    <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Court Amount </label>
-                    <input type="text" name="" placeholder="Court Amount"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
-                </div>
-                   <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Status</label>
-                    <select name="" id="" class="form-control select2">
-                        <option value="">Choose</option>
-                        <option value="">1</option>
-               
-                      
-                    </select>
-                  </div>
-                </div>
-               
-                   <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Remarks</label>
-                     <input type="text" name="" placeholder="Remarks"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
-                </div>
+                  
                   <div class="col-md-12 text-right">
                   <input type="submit" class="btn btn-success shadow" value="Submit"
                   name="saveUser1">
