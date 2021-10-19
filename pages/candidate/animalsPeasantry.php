@@ -1,6 +1,7 @@
-<?php 
-    include "includes/header.php";
-  
+<?php
+include "includes/header.php";
+
+
 ?>
 
 
@@ -8,12 +9,12 @@
   <div class="container-fluid">
     <div class="row mb-2">
       <div class="col-md-6">
-        <h4 class="m-0 text-dark">Birds Peasantry Information</h4>
+        <h4 class="m-0 text-dark">Animals Peasantry Information</h4>
       </div>
       <div class="col-md-6">
         <ol class="breadcrumb float-md-right">
           <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
-          <li class="breadcrumb-item active">Birds Peasantry Areas</li>
+          <li class="breadcrumb-item active">Animals Peasantry Areas</li>
         </ol>
       </div>
     </div>
@@ -33,7 +34,7 @@
         <!-- general form elements -->
         <div class="card card-success" class="text-center">
           <div class="card-header">
-            <div class="card-title">Birds Peasantry </div>
+            <div class="card-title">Animals Peasantry </div>
            <!--  <div class="card-tools">
               <a href="#" class="btn btn-warning btn-sm shadow"> Human Resource List</a>
             </div> -->
@@ -79,8 +80,8 @@
                 
                  <div class="col-md-4">
                   <div class="form-group">
-                    <label>Number of Birds</label>
-                    <input type="text" name="" placeholder="Number of Birds"
+                    <label>Number of Animals</label>
+                    <input type="text" name="" placeholder="Number of Animals"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
@@ -98,20 +99,18 @@
                     </select>
                   </div>
                 </div>
-                 <div class="col-md-4">
+               
+                    <div class="col-md-4">
                   <div class="form-group">
-                    <label>Checks</label>
-                    <input type="text" name="" placeholder="Checks"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
-                </div>
-                 <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Eggs</label>
-                    <input type="text" name="" placeholder="Eggs"
-                    class="form-control" autocomplete="off"
-                    required>
+                    <label>Select From Following</label>
+                    <select name="" id="select" class="form-control select2">
+                        <option value="">Choose</option>
+                        <option value="">Cubs</option>
+                        <option value="">Fawn</option>
+                       
+                        
+                      
+                    </select>
                   </div>
                 </div>
                
@@ -136,6 +135,7 @@
 </div>
 </section>
 
-<?php 
-    include "includes/footer.php";
+<?php
+include "includes/footer.php";
 ?>
+

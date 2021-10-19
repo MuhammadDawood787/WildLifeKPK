@@ -1,6 +1,7 @@
-<?php 
-    include "includes/header.php";
-  
+<?php
+include "includes/header.php";
+
+
 ?>
 
 
@@ -8,12 +9,12 @@
   <div class="container-fluid">
     <div class="row mb-2">
       <div class="col-md-6">
-        <h4 class="m-0 text-dark">Birds Peasantry Information</h4>
+        <h4 class="m-0 text-dark"> Community Participation</h4>
       </div>
       <div class="col-md-6">
         <ol class="breadcrumb float-md-right">
           <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
-          <li class="breadcrumb-item active">Birds Peasantry Areas</li>
+          <li class="breadcrumb-item active"> Community Participation</li>
         </ol>
       </div>
     </div>
@@ -33,7 +34,7 @@
         <!-- general form elements -->
         <div class="card card-success" class="text-center">
           <div class="card-header">
-            <div class="card-title">Birds Peasantry </div>
+            <div class="card-title"> Community Participation </div>
            <!--  <div class="card-tools">
               <a href="#" class="btn btn-warning btn-sm shadow"> Human Resource List</a>
             </div> -->
@@ -47,9 +48,27 @@
             
             
                   <div class="row ">
-                      <div class="col-md-4">
+                  
+     
+                <div class="col-md-4">
                   <div class="form-group">
-                    <label>District</label>
+                    <label>Name of community</label>
+                    <input type="text" name="" placeholder="Name of community"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                  <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Location</label>
+                    <input type="text" name="" placeholder="Location"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                    <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Division</label>
                     <select name="" id="select" class="form-control select2">
                         <option value="">Choose</option>
                         <option value="">1</option>
@@ -59,64 +78,77 @@
                     </select>
                   </div>
                 </div>
-     
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Location</label>
-                    <input type="text" name="" placeholder="Location"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
-                </div>
-                  <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Area</label>
-                    <input type="text" name="" placeholder="Area"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
-                </div>
-                
                  <div class="col-md-4">
                   <div class="form-group">
-                    <label>Number of Birds</label>
-                    <input type="text" name="" placeholder="Number of Birds"
+                    <label>Name of President</label>
+                    <input type="text" name="" placeholder="Name of President"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
                 </div>
-                   <div class="col-md-4">
+               
+                 <div class="col-md-4">
                   <div class="form-group">
-                    <label>Gender</label>
+                    <label>Name of Secretary</label>
+                    <input type="text" name="" placeholder="Name of Secretary"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                 <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Number of members</label>
+                    <input type="text" name="" placeholder="Number of members"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                 <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Date of establishment</label>
+                    <input type="Date" name="" 
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                     <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Category</label>
                     <select name="" id="select" class="form-control select2">
                         <option value="">Choose</option>
-                        <option value="">Male</option>
-                        <option value="">Female</option>
-                        <option value="">Not Recognize</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
                         
                       
                     </select>
                   </div>
                 </div>
-                 <div class="col-md-4">
+                  <div class="col-md-4">
                   <div class="form-group">
-                    <label>Checks</label>
-                    <input type="text" name="" placeholder="Checks"
+                    <label>Game reserve</label>
+                    <input type="text" name="" placeholder="Game reserve"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
                 </div>
-                 <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Eggs</label>
-                    <input type="text" name="" placeholder="Eggs"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
-                </div>
-               
                   
-               
+                  <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Parks</label>
+                    <input type="text" name="" placeholder="Parks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
+                    
+                  <div class="col-md-4">
+                  <div class="form-group">
+                    <label>National Parks</label>
+                    <input type="text" name="" placeholder="National Parks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                </div>
                   <div class="col-md-12 text-right">
                   <input type="submit" class="btn btn-success shadow" value="Submit"
                   name="saveUser1">
@@ -136,6 +168,6 @@
 </div>
 </section>
 
-<?php 
-    include "includes/footer.php";
+<?php
+include "includes/footer.php";
 ?>

@@ -103,7 +103,7 @@
           </a>
         </li>
          
-                <li class="nav-item has-treeview <?php if($curPageName == 'Peasantry.php' OR $curPageName == 'nationalParks.php' or $curPageName == 'sanctuaries.php' or $curPageName == 'waterfowl.php' or $curPageName == 'wildlifeParks.php' or $curPageName == 'gameReserves.php' or $curPageName == 'totalProtectedArea.php' or $curPageName == 'gameReserves.php' or $curPageName == 'gameReserves.php') { echo "menu-open" ; } ?>">
+                <li class="nav-item has-treeview <?php if($curPageName == 'Peasantry.php' OR $curPageName == 'nationalParks.php' or $curPageName == 'sanctuaries.php' or $curPageName == 'waterfowl.php' or $curPageName == 'wildlifeParks.php' or $curPageName == 'gameReserves.php' or $curPageName == 'totalProtectedArea.php' or $curPageName == 'gameReserves.php' or $curPageName == 'animalsPeasantry.php') { echo "menu-open" ; } ?>">
           <a href="#"  class="nav-link">
             <i class="icon_color nav-icon fas fa-dove"></i>
             <p>
@@ -115,7 +115,13 @@
            <li class="nav-item">
               <a href="Peasantry.php" class="nav-link <?php if($curPageName == 'Peasantry.php' ) echo "active  " ?> ">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Peasantry</p>
+                <p>Birds Peasantry</p>
+              </a>
+            </li> 
+             <li class="nav-item">
+              <a href="animalsPeasantry.php" class="nav-link <?php if($curPageName == 'animalsPeasantry.php' ) echo "active  " ?> ">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Animals Peasantry</p>
               </a>
             </li> 
               <li class="nav-item">
@@ -531,6 +537,14 @@
           <a href="Revenue.php" class="nav-link  <?php if($curPageName == 'Revenue.php') echo "active" ?> ">
             <i class="nav-icon fas fa-skull-crossbones"></i>
             <p>Revenue
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
+            <li class="nav-item has-treeview ">
+          <a href="CommunityParticipation.php" class="nav-link  <?php if($curPageName == '  CommunityParticipation.php') echo "active" ?> ">
+            <i class="nav-icon fas fa-skull-crossbones"></i>
+            <p>  Community Participation Form
               <i class="right fas"></i>
             </p>
           </a>
