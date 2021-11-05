@@ -558,7 +558,7 @@
           </a>
         </li>
            <li class="nav-item has-treeview ">
-          <a href="Expenses.php" class="nav-link  <?php if($curPageName == 'Expenses.php') echo "active" ?> ">
+          <a href="Expense.php" class="nav-link  <?php if($curPageName == 'Expense.php') echo "active" ?> ">
             <i class="nav-icon fas fa-skull-crossbones"></i>
             <p>Expenses
               <i class="right fas"></i>
