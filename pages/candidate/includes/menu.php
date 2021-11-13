@@ -94,14 +94,7 @@
             </p>
           </a>
         </li>
-           <li class="nav-item has-treeview ">
-          <a href="protectedareas.php" class="nav-link  <?php if($curPageName == 'protectedareas.php') echo "active" ?> ">
-            <i class="nav-icon fas fa-skull-crossbones"></i>
-            <p>Protected Areas
-              <i class="right fas"></i>
-            </p>
-          </a>
-        </li>
+          
          
                 <li class="nav-item has-treeview <?php if($curPageName == 'Peasantry.php' OR $curPageName == 'nationalParks.php' or $curPageName == 'sanctuaries.php' or $curPageName == 'waterfowl.php' or $curPageName == 'wildlifeParks.php' or $curPageName == 'gameReserves.php' or $curPageName == 'totalProtectedArea.php' or $curPageName == 'gameReserves.php' or $curPageName == 'animalsPeasantry.php') { echo "menu-open" ; } ?>">
           <a href="#"  class="nav-link">
@@ -561,6 +554,14 @@
           <a href="Expense.php" class="nav-link  <?php if($curPageName == 'Expense.php') echo "active" ?> ">
             <i class="nav-icon fas fa-skull-crossbones"></i>
             <p>Expenses
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
+          <li class="nav-item has-treeview ">
+          <a href="Ex.php" class="nav-link  <?php if($curPageName == 'Ex.php') echo "active" ?> ">
+            <i class="nav-icon fas fa-skull-crossbones"></i>
+            <p>Ex-SITU Facilities 
               <i class="right fas"></i>
             </p>
           </a>
