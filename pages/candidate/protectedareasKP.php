@@ -57,18 +57,29 @@
                     required>
                   </div>
                 </div>
-                  <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Category</label>
-                    <input type="text" name="" placeholder="Category"
-                    class="form-control" autocomplete="off"
-                    required>
-                  </div>
-                </div>
-             
                    <div class="col-md-4">
                   <div class="form-group">
-                    <label>District</label>
+                    <label>Category</label>
+                    <select name="" id="select" class="form-control select2">
+                        <option value="">Choose</option>
+                        <option value="">Wild Life Sanctuary</option>
+                        <option value="">National Park</option>
+                        <option value="">SSSI</option>
+                        <option value="">Wild Life Refuge</option>
+                        <option value="">Biosphere Reserve</option>
+                        <option value="">National Natural Heritage Site</option>
+                        <option value="">Game Reserve</option>
+                        <option value="">Private Game Reserves</option>
+                        <option value="">Community Managed Game Reserve</option>
+                        <option value="">Private Game Reserve</option>
+                        <option value="">Conservancy</option>
+                      
+                    </select>
+                  </div>
+                </div> 
+                   <div class="col-md-4">
+                  <div class="form-group">
+                    <label>Division</label>
                     <select name="" id="select" class="form-control select2">
                         <option value="">Choose</option>
                         <option value="">1</option>
@@ -104,28 +115,123 @@
                 </div>
                  <div class="col-md-4">
                   <div class="form-group">
-                    <label>Fauna</label>
-                    <input type="text" name="" placeholder="Fauna"
+                    <label>Date of Establishment</label>
+                    <input type="date" name="" 
                     class="form-control" autocomplete="off"
                     required>
                   </div>
                 </div>
+                 
+               
+              
+                 </div>
+                
+                <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Birds </label>
+                 </div>
+                
+                </div>
+                     
+                 <div class="row mt-3">
                  <div class="col-md-4">
-                  <div class="form-group">
-                    <label>Flora</label>
-                    <input type="text" name="" placeholder="Flora"
+                   <div class="form-group">
+                    <label>Specie </label>
+                    <input type="text" name=""  placeholder="Specie"
                     class="form-control" autocomplete="off"
                     required>
                   </div>
+                 </div>
+                 <div class="col-md-4" style="text-align="center">
+               <div class="form-group">
+                    <label>Male </label>
+                    <input type="text" name=""  placeholder="Female"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-4">
+                   <div class="form-group">
+                    <label>Female </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 
+                   
+                 </div>
+
+                 <div class="row mt-3">
+               
+                 <div class="col-md-4">
+                   <div class="form-group">
+                    <label>Checks </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                  <div class="col-md-4">
+                   <div class="form-group">
+                    <label>Eggs </label>
+                    <input type="text" name=""  placeholder="Eggs"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   
+                 </div>
+                      <div class="row">
+                 <div class="col-md-12" style="text-align="center">
+                  <label >Animals </label>
+                 </div>
+                
                 </div>
-               
-               
+                     
+                 <div class="row mt-3">
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Specie </label>
+                    <input type="text" name=""  placeholder="Male"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3" style="text-align="center">
+               <div class="form-group">
+                    <label>Male </label>
+                    <input type="text" name=""  placeholder="Female"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Female </label>
+                    <input type="text" name=""  placeholder="Checks"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                   <div class="col-md-3">
+                   <div class="form-group">
+                    <label>Cubs/Fawn </label>
+                    <input type="text" name=""  placeholder="Cubs/Fawn"
+                    class="form-control" autocomplete="off"
+                    required>
+                  </div>
+                 </div>
+                 
+                   
+                   
+                 </div>
+
+                  
                   <div class="col-md-12 text-right">
                   <input type="submit" class="btn btn-success shadow" value="Submit"
                   name="saveUser1">
                 </div>
-                 </div>
-              
             </form>
          
         </div>
