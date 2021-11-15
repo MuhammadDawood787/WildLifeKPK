@@ -227,14 +227,7 @@
             </p>
           </a>
         </li>
-            <li class="nav-item has-treeview ">
-          <a href="roadkills.php" class="nav-link  <?php if($curPageName == 'roadkills.php') echo "active" ?> ">
-         <i class="nav-icon fas fa-road"></i>
-            <p>Road Kills
-              <i class="right fas"></i>
-            </p>
-          </a>
-        </li>
+         
              <!-- <li class="nav-item has-treeview ">
           <a href="#" class="nav-link ">
             <i class="nav-icon fas fa-cog"></i>
@@ -562,6 +555,15 @@
           <a href="Ex.php" class="nav-link  <?php if($curPageName == 'Ex.php') echo "active" ?> ">
             <i class="nav-icon fas fa-skull-crossbones"></i>
             <p>Ex-SITU Facilities 
+              <i class="right fas"></i>
+            </p>
+          </a>
+        </li>
+           
+         <li class="nav-item has-treeview ">
+          <a href="Depredation.php" class="nav-link  <?php if($curPageName == 'Depredation.php') echo "active" ?> ">
+            <i class="nav-icon fas fa-road"></i>
+            <p>Depredation 
               <i class="right fas"></i>
             </p>
           </a>
